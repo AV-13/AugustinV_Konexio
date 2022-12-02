@@ -1,0 +1,212 @@
+@font-face 
+{
+    font-family: "HK Grotesk Medium";
+    src: url(font/HKGrotesk-Medium.otf) format(truetype);
+}
+@font-face
+{
+    font-family: "Supreme Extrabold Italic";
+    src: url(font/Supreme-ExtraboldItalic.otf) format(truetype);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "HK Grotesk Medium";
+}
+body
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100vw;
+}
+.background
+{
+    margin-right: 0;
+    background-color: whitesmoke;
+}
+
+.navbar
+{
+    width: 100%;
+    background-color: white;
+    font-size: 1.7vw;
+}
+ul
+{
+    color: black;
+    display: flex;
+    font-size: 1.5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li .hbel a
+{
+    font-weight: 600;
+}
+ul li .hbel a:hover
+{
+    color:blueviolet;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    text-decoration-line: 100px;
+}
+ul li .logo
+{
+    font-family: "Supreme Extrabold Italic";
+    font-size: 3vw ;
+    color: blueviolet;
+}
+
+ul li .logo:hover
+{
+    color:aquamarine;
+}
+.pres
+{
+    width: 100vw;
+    height: 100vh;
+}
+.trainvideo
+{
+    border: solid white;
+    height: 100%;
+    width: 100%;
+}
+h1
+{
+    font-size: 8vw;
+    padding: 10vw;
+    padding-bottom: 0vw;
+}
+p
+{
+    padding-left: 15vw;
+    padding-top: 3vw;
+    padding-right: 50%;
+}
+.lorem
+{
+    margin-left: 15vw;
+    margin-top: 8vw;
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 1.7vw;
+}
+.lorem:hover
+{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+.button
+{
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+.button:hover
+{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+.bouton
+{
+    display: block;
+    margin-top: 3vw;
+}
+form
+{
+    margin: 10vw 0vw 0vw 0vw;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+label
+{
+    background-color: blueviolet;
+    display: inline-block;
+    border-radius: 0.5vw;
+    text-align:center;
+    width: 15vw;
+    color: aquamarine;
+    margin-top: 1vw;
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    font-size: 1.3vw;
+}
+input
+{
+    display: inline-block;
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    border: none;
+    width: 15vw;
+    color: black;
+    margin-top: 1vw;
+    padding: 0.8vw 3vw 0.8vw 3vw;
+}
+.button-login
+{
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 1.7vw;
+}
+.button-create-account
+{
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 1.7vw;
+}
+.button-create-account:hover
+{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+.button-login:hover
+{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+
+.espace
+{
+    margin-top: 20px;
+    justify-content: space-around;
+    padding-top: 2vw;
+    display: flex;
+}
+.formulaire
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.forgotpass p
+{
+    width: 200px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+}
+.forgotpass p:hover
+{
+    text-decoration: underline;
+}
