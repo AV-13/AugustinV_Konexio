@@ -1,42 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-	    <link rel="stylesheet" href="style.css" />
-        <title>Template HTML/CSS 3</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Template HTML/CSS 3</title>
+</head>
+
+<body>
     <div class="background">
         <header>
             <nav class="navbar">
-                <ul>
+                <ul class="headerul">
                     <li><a href="index.html"><span class="logo">LOGO</span></a></li>
-                    <li><span class="hbel"><a href="aboutus.html">About Us</a></span></li>
-                    <li><span class="hbel"><a href="contactus.html">Contact Us</a></span></li>
-                    <li><span class="hbel"><a href="joinus.html">Join Us</a></span></li>
+                    <li><span class="hbel"><a href="schedule.html">Train Schedule</a></span></li>
+                    <li><span class="hbel"><a href="index.html">Contact Us</a></span></li>
+                    <li><span class="hbel"><a href="index.html">Join Us</a></span></li>
                     <li><a class="button" href="login.html">Login</a></li>
                 </ul>
             </nav>
         </header>
         <section class="formulaire">
-        <form action="ou-envoyer-les-donnees" method="post">
-            <div>
-                <label for="mail">Account name or Mail :</label>
-                <input type="email" id="mail" name="user_mail" placeholder="Mail@example.com" onFocus="this.value='';">
-            </div>
-            <div>
-                <label for="name">Password : </label>
-                <input type="password" id="password" name="user_password" placeholder="Password" onfocus="this.value='';">
-            </div>
-            <div class="forgotpass">
-                <a href="changepassword.html"><p>Forgot Password ?</p></a>
-            </div>
-            <div class="espace">
-                <a class="button-create-account" href="create-account.html">Create an account</a>
-                <a class="button-login" href="index.html">Login</a> 
-            </div>
-        </form>
+            <form action="ou-envoyer-les-donnees" method="post">
+                <div>
+                    <label for="mail">Account name or Mail :</label>
+                    <input type="email" id="mail" name="user_mail" placeholder="Mail@example.com"
+                        onFocus="this.value='';">
+                </div>
+                <div>
+                    <label for="name">Password : </label>
+                    <input type="password" id="password" name="user_password" placeholder="Password"
+                        onfocus="this.value='';">
+                </div>
+                <div class="forgotpass">
+                    <a href="changepassword.html">
+                        <p>Forgot Password ?</p>
+                    </a>
+                </div>
+                <div class="espace">
+                    <a class="button-sign-up" href="sign-up.html">Sign Up</a>
+                    <a class="button-login" href="index.html">Login</a>
+                </div>
+            </form>
         </section>
+        <footer>
+            <section class="footersection">
+                <div class="footerbox">
+                    <ul class="footerul">
+                        <li class="underfoot">Profil</li>
+                        <li class="underfoot">Gouvernance</li>
+                        <li class="underfoot">Développement durable</li>
+                        <li class="underfoot">Innovation & recherche</li>
+                    </ul>
+
+                </div>
+                <div class="footerbox">
+                    <ul class="footerul">
+                        <li class="underfoot">Fondation</li>
+                        <li class="underfoot">Marques & Design</li>
+                        <li class="underfoot">SNCF Réseau</li>
+                        <li class="underfoot">SNCF Gares & connexions</li>
+                    </ul>
+
+                </div>
+                <div class="footerbox">
+                    <ul class="footerul">
+                        <li class="underfoot">Journalistes</li>
+                        <li class="underfoot">Investisseurs</li>
+                        <li class="underfoot">Candidats</li>
+                        <li class="underfoot">Fournisseurs</li>
+                    </ul>
+                </div>
+                <div class="footerbox">
+                    <ul class="footerul">
+                        <li class="underfoot">Train</li>
+                        <li class="underfoot">Lorem</li>
+                        <li class="underfoot">Keolis</li>
+                        <li class="underfoot">Geodis </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="dernierul">
+
+                <ul class="footerul">
+                    <li class="underfoot"> Accessibilité </li>
+                    <li class="underfoot"> Plan du site </li>
+                    <li class="underfoot"> Mentions légales & CGU </li>
+                    <li class="underfoot"> Données personnelles & cookies</li>
+                    <li class="underfoot">Vidéo & appels sûreté </li>
+                </ul>
+            </div>
+        </footer>
     </div>
-    </body>
+</body>
+
 </html>

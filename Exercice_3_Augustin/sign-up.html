@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
     <title>Template HTML/CSS 3</title>
-    <link rel="icon" type="image/x-icon" href="favico.png">
 </head>
 
 <body>
@@ -20,23 +19,47 @@
                     <li><a class="button" href="login.html">Login</a></li>
                 </ul>
             </nav>
-
         </header>
-        <section class="background-video">
-            <video class="trainvideo" autoplay loop muted>
-                <source src="train.mp4" type="video/mp4">
-            </video>
-        </section>
-
-        <section class="pres">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere accusantium temporibus deleniti ad iste,
-                quod error assumenda possimus, explicabo voluptate repellat sed, incidunt natus voluptatibus amet.
-                Distinctio labore quis beatae.</p>
-            <div class="bouton">
-                <a class="lorem" href="joinus.html">Lorem</a>
-                <!--<button class="lorem" href="joinus.html">Lorem</button> -->
-            </div>
+        <section class="formulaire">
+            <form action="ou-envoyer-les-donnees" method="post">
+                <div>
+                    <label for="fname">First Name :</label>
+                    <input type="text" id="fname" name="user_fname" placeholder="Augustin" onfocus="this.value='';">
+                </div>
+                <div>
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" name="user_name" placeholder="Vathonne" onfocus="this.value='';">
+                </div>
+                <div>
+                    <label for="mail">Mail : </label>
+                    <input type="text" id="mail" name="user_mail" placeholder="mail@example.com"
+                        onfocus="this.value='';">
+                </div>
+                <div>
+                    <label for="mail">Confirm Your Mail : </label>
+                    <input type="text" id="mail" name="user_mail" placeholder="mail@example.com"
+                        onfocus="this.value='';">
+                </div>
+                <div>
+                    <label for="name">Password : </label>
+                    <input type="password" id="password" name="user_password" placeholder="Password"
+                        onfocus="this.value='';">
+                </div>
+                <div>
+                    <label for="name">Confirm Your Password : </label>
+                    <input type="password" id="password" name="user_password" placeholder="Password"
+                        onfocus="this.value='';">
+                </div>
+                <div>
+                    <label class="CGUU" for="CGU"> Je reconnais avoir lu et accepté les Conditions Générales du
+                        Site</label>
+                    <span class="check-cgu"><input type="checkbox" id="CGU" name="check_CGU"></span>
+                </div>
+                <div class="espace">
+                    <a class="button-sign-up" href="sign-up.html">Sign Up</a>
+                    <a class="button-login" href="login.html">Login</a>
+                </div>
+            </form>
         </section>
         <footer>
             <section class="footersection">
