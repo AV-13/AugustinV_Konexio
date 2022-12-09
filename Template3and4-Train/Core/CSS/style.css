@@ -7,7 +7,6 @@
     font-family: "Supreme Extrabold Italic";
     src: url(../FONT/Supreme-ExtraboldItalic.otf) format(truetype);
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -319,3 +318,159 @@ footer .footersection {
     margin-top: 30px;
     font-size: 25px
 }
+
+
+
+/* RESPONSIVE SMARTPHONE */
+
+
+
+
+
+/* RESPONSIVE NAVIGATION */ 
+
+
+@media screen and (min-width: 900px) {
+    .menu{
+      display:none;
+    }
+  }
+  @media screen and (max-width: 493px) {
+    
+    .menu{
+        display:block;
+      }
+    .navitem{
+      display:none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ol li .logo{
+        font-size: 6vw;
+    }
+    /* RESPONSIVE NAVIGATION */
+
+    /* RESPONSIVE INDEX */
+    .pres p{
+        padding: 5%;
+    }
+    
+    h1{
+        font-size:10vw;
+    }
+    .lorem {
+        font-size: 4vw;
+      }
+    /* RESPONSIVE INDEX */
+
+    /* RESPONSIVE FOOTER pour smartphone*/
+    footer .footersection .footerbox{
+        height: 150px;
+        width: 150px;
+    }
+    footer .footersection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        row-gap: 1vw;
+        align-items: center;
+        column-gap: 1.7vw;
+    }
+    footer .footerul{
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 2.8vw;
+        row-gap: 3vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dernierul ul{
+        flex-direction: column;
+    }
+    
+    /* RESPONSIVE FOOTER */
+  }
+
+
+
+
+
+
+  /* RESPONSIVE TABLETTE */
+
+
+
+
+/*  RESPONSIVE NAVIGATION */
+@media screen and (min-width: 901px) {
+    .menu{
+      display:none;
+    }
+  }
+  @media screen and (max-width: 900px) and (min-width: 493px) {
+    .menu{
+        display:block;
+      }
+    .navitem{
+      display:none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ol li .logo{
+        font-size: 6vw;
+    }
+    /* RESPONSIVE NAVIGATION */
+
+    /* RESPONSIVE INDEX */
+    .pres p{
+        padding: 5%;
+    }
+    
+    h1{
+        font-size:10vw;
+    }
+    .lorem {
+        font-size: 4vw;
+      }
+    /* RESPONSIVE INDEX */
+
+    /* RESPONSIVE FOOTER pour TABLETTE*/
+    footer .footersection .footerbox{
+        height: 30vw;
+        width:30vh;
+    }
+    footer .footersection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        row-gap: 10vw;
+        align-items: center;
+        column-gap: 30vw;
+    }
+    footer .footerul{
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 2vw;
+        text-align: center;
+        row-gap: 3vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dernierul ul{
+        flex-direction: column;
+    }
+    
+    /* RESPONSIVE FOOTER */
+  }

@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "HK Grotesk Medium";
+    src: url(../FONT/HKGrotesk-Medium.otf) format(truetype);
+}
+@font-face {
+    font-family: "Marvel";
+    src: url(../FONT/Marvel-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Supreme Extrabold Italic";
+    src: url(../FONT/Supreme-ExtraboldItalic.otf) format(truetype);
+}
+@font-face {
+    font-family: "ArcadeClassic";
+    src: url(../FONT/Arcade-Classic.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "ArcadeClassic";
+    
+}
+/***** LES BACKGROUND *****/
+.home{
+    height: 100vh;
+    background-image: url("../GIF/background-pixelart.gif");
+    background-size: cover;
+    background-position: bottom;
+}
+#template-basic{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100vh;
+    background-image: url("../GIF/basic-background.gif");
+    background-size: cover;
+    background-position: bottom;
+}
+#template-trip{
+    height: 100vh;
+    background-image: url("../GIF/trip-background.gif");
+    background-size: cover;
+    background-position: top;
+}
+#template-train{
+    height: 100vh;
+    background-image: url("../GIF/train-background.gif");
+    background-size: cover;
+    background-position: bottom;
+}
+.transitionib{
+    height: 50vh;
+    background:linear-gradient(#2E481D, #0B1048)
+}
+.transitionbt{
+    height: 50vh;
+    background:linear-gradient(#B1C5D3, #B6D84C)
+}
+.transitiontt{
+    height: 50vh;
+    background:linear-gradient(#B6D84C, #F3F5F4)
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarbegin{
+    width:33vw;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    align-items: center;
+}
+.navbarbegin .logo{
+    color: yellow;
+    text-shadow: blueviolet 2px 2px;
+    font-size: 4vw;
+}
+.navbarcenter{
+    width: 33vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarend{
+    width: 30vw;
+    padding-right: 2vw;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2vw;
+    align-items: center;
+}
+.navbarcenter a{
+    color: yellow;
+    text-shadow: blueviolet 2px 2px;
+    font-size: 1.5vw;
+    row-gap: 10px ;
+}
+.template{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    position: absolute;
+    top: 50%;
+    margin-left: 10vw;
+}
+.template a{
+    font-size: 3vw;
+    color: yellow;
+    text-shadow: red 2px 2px;
+
+}
+h1{
+    padding-bottom: 5vh ;
+    font-size: 5vw;
+    color: yellow;
+    text-shadow: red 2px 2px;
+}
+img
+{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.button-basic {  
+    margin-bottom: 6rem;
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 3px;
+    color: white;
+    border-color: white;
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+.button-trip {
+    margin-bottom: 3rem;
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+.button-train {
+    margin-bottom: 3rem;
+    padding: 0.8vw 3vw 0.8vw 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+.gif-fighter{
+    padding-bottom: 2rem;
+}
+/* .navbarbegin .logo:hover{
+
+    
+} */
+.navbarcenter a:hover{
+    transform: translateY(-10px);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+nav img:hover{
+    transform: translateY(-20px);
+    transform: scale(1.5);
+    transition: 0.5s;
+}
